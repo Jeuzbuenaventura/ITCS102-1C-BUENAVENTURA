@@ -1,36 +1,44 @@
 amount = eval(input("Enter amount to deposit : "))
 
-print("Here is the breakdown of your deposit : ")
+print("Here is a breakdown of your deposited amount using the PH denominations : ")
 
-a = amount // 1000
-amount = amount % 1000
+onethousand = amount // 1000
+one_thousand = amount % 1000
 
-b = amount // 500
-amount = amount % 500
+fivehundred = amount // 500
+five_hundred = amount % 500
 
-c = amount // 200
-amount = amount % 200
+twohundred = amount // 200
+two_hundred = amount % 200
 
-d = amount // 100
-amount = amount % 100
+onehundred = amount // 100
+one_hundred = amount % 100
 
-e = amount // 50
-amount = amount % 50
+fifty = amount // 50
+fifiy_pesos = amount % 50
 
-f = amount // 20
-amount = amount % 20
+twenty = amount // 20
+twenty_pesos = amount % 20
 
-g = amount // 10
-amount = amount % 10
+ten = amount // 10
+ten_pesos = amount % 10
 
-h = amount // 1
-amount = amount % 1
+one = amount // 1
+one_pesos = amount % 1
 
-print("1000\t-" , a)
-print("500\t-" , b)
-print("200\t-" , c)
-print("100\t-" , d)
-print("50\t-" , e)
-print("20\t-" , f)
-print("10\t-" , g)
-print("1\t-" , h)
+print( onethousand," - 1000" )
+print( one_thousand )
+print( fivehundred," - 500" )
+print( five_hundred )
+print( twohundred," - 200" )
+print( two_hundred )
+print( onehundred," - 100" )
+print( one_hundred )
+print( fifty," - 50" )
+print( fifty_pesos )
+print( twenty," - 20" )
+print( twenty_pesos )
+print( ten," - 10" )
+print( ten_pesos )
+print( one," - 1" )
+print( one_pesos )
