@@ -20,5 +20,4 @@ a = a - 6
 a = a * 6
 a = a / 6
 
-
 print("The value of a is ", a)
